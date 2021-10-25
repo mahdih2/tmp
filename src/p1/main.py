@@ -1,6 +1,8 @@
 import pandas as np
 
 class cars:
-    pass
+    def __init__(self, name):
+        self.name = name
+
 if __name__ == '__main__':
-    c = cars()
+    c = cars(name='peride')
